@@ -1,0 +1,3 @@
+<isset name="sessionVar" value="${1}" scope = "session"/>
+${session.custom.sessionVar}
+<hr/>

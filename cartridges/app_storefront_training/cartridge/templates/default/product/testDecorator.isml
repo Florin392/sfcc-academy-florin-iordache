@@ -1,0 +1,9 @@
+<isdecorate template="common/layout/page">
+<isinclude template="product/dummy1" sf-toolkit="off"/>
+<isinclude template="product/dummy2" sf-toolkit="off"/>
+
+<isinclude template = "/components/modules" sf-toolkit = "off" />
+<iscontentasset aid= "footer-account"/>
+
+
+</isdecorate>

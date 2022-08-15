@@ -1,0 +1,21 @@
+
+ <isset name="sessionVar" value="${1}" scope = "session"/>
+${session.custom.sessionVar}
+<hr/>
+<isset name="requestVar" value="${false}" scope="request"/>
+${request.custom.requestVar}
+<hr/>
+<isset name="pageVar" value="${"blabla"}" scope="page"/>
+${pageVar}
+<hr/>
+
+
+<iscomment> ....................... </iscomment>
+
+${pdict.CurrentSession.custom.sessionVar + 1 }
+<hr/>
+${!pdict.CurrentRequest.custom.requestVar}
+<hr/>
+${pageVar + " cucu"}
+<hr/>
+

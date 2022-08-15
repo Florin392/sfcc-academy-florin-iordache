@@ -1,0 +1,18 @@
+<isdecorate template="common/layout/page">
+    <h1>
+        <isprint value="${pdict.title}" encoding="htmlcontent" />
+    </h1>
+    <hr>
+    <h4>
+        <isprint value="${pdict.profileForm.customer.firstname.label += ':'}" encoding="htmlcontent" />
+        <isprint value=${pdict.profileForm.customer.firstname.value} />
+    </h4>
+    <h4>
+        <isprint value="${pdict.profileForm.customer.lastname.label += ':'}" encoding="htmlcontent" />
+        <isprint value=${pdict.profileForm.customer.lastname.value} />
+    </h4>
+    <h4>
+        <isprint value="${pdict.profileForm.customer.email.label += ':'}" encoding="htmlcontent" />
+        <isprint value=${pdict.profileForm.customer.email.value} />
+    </h4>
+</isdecorate>

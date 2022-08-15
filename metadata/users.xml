@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users xmlns="http://www.demandware.com/xml/impex/user/2007-09-05">
+    <user login="gorkem.akdur@osf.digital" enabled-flag="true">
+        <credentials>
+            <external-id>be2ba49d-2113-4085-a4c2-2797fa1eeb5f</external-id>
+        </credentials>
+        <profile>
+            <first-name>Gorkem</first-name>
+            <last-name>Akdur</last-name>
+            <email>gorkem.akdur@osf.digital</email>
+        </profile>
+    </user>
+
+    <user login="iordacheflorin3@yahoo.com" enabled-flag="true">
+        <credentials>
+            <external-id>26a39b11-59eb-4059-8166-be61fe954e3c</external-id>
+        </credentials>
+        <profile>
+            <first-name>Florin</first-name>
+            <last-name>Iordache</last-name>
+            <email>iordacheflorin3@yahoo.com</email>
+        </profile>
+    </user>
+
+</users>
