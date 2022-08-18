@@ -2157,6 +2157,18 @@ For more information please browse our &lt;a title="About Us Content" href="$url
         <page-attributes/>
     </content>
 
+    <content content-id="banner_image_id">
+        <display-name xml:lang="x-default">banner_image_id</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes>
+            <page-title xml:lang="x-default">Image preview</page-title>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;img alt="" src="images/desktopBannerImage/warning-notice-sign-symbol-38020.png?$staticlink$" title="" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="boots-marketing-page">
         <display-name xml:lang="x-default">Boots Landing Page</display-name>
         <display-name xml:lang="fr-FR">Page principales bottines</display-name>
